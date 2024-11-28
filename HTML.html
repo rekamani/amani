@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <title>Formulaire</title>
+</head>
+<body>
+<h2>CV</h2>
+<form action="index.php" method="post">
+<label for="Nom">Nom </label>
+<input id="Nom" type="text" placeholder=" votre nom" required><br>
+<label for="Prenom">Prenom </label>
+<input id="Prenom" type="text" placeholder=" votre prenom" required><br>
+<label for="Ville">Ville </label>
+<input id="ville" type="text" placeholder="  votre ville" required><br>
+<label for="e-mail">e-mail </label>
+<input id="e-mail" type="email" placeholder="  votre e-mail" required><br>
+<label for="Numero">Numero </label>
+<input id="Numero" type="tel" placeholder=" 00-00-00-00-00" required max="10" pattern="[0]{1}[5-7]{1}[0-9]{8}"><br>
+<label for="Date">Date de naissance</label>
+<input id="Date" type="Date" required><br>
+<label for="Objectifs">Objectifs</label><br>
+<textarea id="Objectifs" required rows="15" cols="50"></textarea><br>
+<p> Langues <br>
+<label for="Francais">Francais</label>
+<input id="Francais" type="checkbox" value="Francais"><br>
+<label for="Intermediare F">Intermediaire</label>
+<input id="Intermediare F" type="radio" name="fr">
+<label id="Avance F">Avance</label>
+<input id="Avance F" type="radio" name="fr"><br>
+
+<label for="Anglais">Anglais</label>
+<input id="Anglais" type="checkbox" value="Anglais"><br>
+<label for="Intermediare A">Intermediaire</label>
+<input id="Intermediare A" type="radio" name="en">
+<label id="Avance A">Avance</label>
+<input id="Avance A" type="radio" name="en"><br>
+<label for="Arabe">Arabe</label>
+<input for="Arabe" type="checkbox" value="Arabe"><br>
+<label for="Intermediare Ar">Intermediaire</label>
+<input id="Intermediare Ar" type="radio" name="ar">
+<label id="Avance Ar">Avance</label>
+<input id="Avance Ar" type="radio" name="ar"><br>
+<label for="Autres Langues">Autres langues</label>
+<input id="Autres Langues" type="checkbox" value="Autres Langues"><br>
+<input id="Autres Langues" type="text">
+</p>
+<label for="Competence">Competence</label><br>
+<textarea id="Competence" required rows="15" cols="50"></textarea><br>
+ 
+ CENTRE D'INTÉRÊT<br>
+ <label for="SPORT ET ACTIVITÉS PHYSIQUES">SPORT ET ACTIVITÉS PHYSIQUES</label>
+<input id="SPORT ET Activités physiques" type="checkbox" value="SPORT ET Activités physiques"><br>
+<label for="Football ">Football</label>
+<input id="Football" type="radio" name="fr">
+<label id="Basketball">Basketball</label>
+<input id="Basketball" type="radio" name="fr"><br>
+<label id="Tennis">Tennis</label>
+<input id="Tennis" type="radio" name="fr"><br>
+<label id="Natation">Natation</label>
+<input id="Natation" type="radio"name="fr"><br>
+<label for="TECHNOLOGIE ET SCIENCES">TECHNOLOGIE ET SCIENCES</label>
+<input id="TECHNOLOGIE ET SCIENCES" type="checkbox" value="TECHNOLOGIE ET SCIENCES"><br>
+<label for="programmation">Programmation</label>
+<input id="Programmation" type="radio" name="fr">
+<label id="electronique">Electronique</label>
+<input id="Electronique" type="radio" name="fr"><br>
+<label id="IA">IA</label>
+<input id="IA" type="radio" name="fr"><br>
+<label id="Autres">Autres</label>
+<input id="Autres" type="radio" name="fr"><br>
+<label for="LOISIRS CRÉATIFS">LOISIRS CRÉATIFS</label>
+<input id="LOISIRS CRÉATIFS" type="checkbox" value="LOISIRS CRÉATIFS"><br>
+<label for="Cuisine, pâtisserie">Cuisine, pâtisserie</label>
+<input id="Cuisine, pâtisserie" type="radio" name="fr">
+<label id="Couture">Couture</label>
+<input id="Couture" type="radio" name="fr"><br>
+<label id="Autres">Autres</label>
+<input id="Autres" type="radio" name="fr"><br>
+
+<label for="Ecole">Ecole</label>
+<select id="Ecole">
+<option value="ESGEN">ESGEN</option>
+<option value="ENSSEA">ENSSEA</option>
+<option value="ENSM">ENSM</option>
+<option value="EHEC">EHEC</option>
+<option value="ESC">ESC</option> 
+</select> <br><br>
+<p>
+
+
+
+<input type="submit">
+<input type="reset">
+
+</form>
+</body>
+</html>
